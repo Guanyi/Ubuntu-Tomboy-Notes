@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>System Services Management</title>
+  <text xml:space="preserve"><note-content version="0.1">System Services Management
+
+<bold>List all services:</bold>
+sudo service --status-all
+or
+sudo initctl list
+don't know differnce yet
+initctl = initial deamon control tool
+
+<bold>Start, Stop, Restart a service:</bold>
+sudo service &lt;servicename&gt; start 
+sudo service &lt;servicename&gt; stop
+sudo service &lt;servicename&gt; restart
+or
+sudo <link:url>/etc/init.d/apache2</link:url> start
+
+<bold>Show status of a service:</bold>
+sudo status &lt;servicename&gt;
+
+<bold>Change apache2 default directory</bold>
+open <link:url>/etc/apache2/sites-available/000-default.conf</link:url>
+edit line: DocumentRoot <link:url>/var/www</link:url></note-content></text>
+  <last-change-date>2014-05-03T04:03:51.2846100-07:00</last-change-date>
+  <last-metadata-change-date>2014-05-03T04:03:51.2846100-07:00</last-metadata-change-date>
+  <create-date>2014-04-24T03:06:33.7797710-07:00</create-date>
+  <cursor-position>495</cursor-position>
+  <selection-bound-position>495</selection-bound-position>
+  <width>1110</width>
+  <height>790</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

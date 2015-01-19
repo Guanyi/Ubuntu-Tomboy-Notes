@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Bash Shell Tricks</title>
+  <text xml:space="preserve"><note-content version="0.1">Bash Shell Tricks
+
+ctrl+a	move cursor to the beginning
+
+ctrl+k	delete from cursor to the end
+
+ctrl+u	delete from cursor to the beginning</note-content></text>
+  <last-change-date>2014-07-12T04:21:52.9126720-07:00</last-change-date>
+  <last-metadata-change-date>2014-07-12T04:21:52.9152480-07:00</last-metadata-change-date>
+  <create-date>2014-07-12T04:09:22.5718780-07:00</create-date>
+  <cursor-position>124</cursor-position>
+  <selection-bound-position>124</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

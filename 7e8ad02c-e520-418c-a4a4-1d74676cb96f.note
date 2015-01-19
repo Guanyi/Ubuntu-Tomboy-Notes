@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Linux Network Configuration</title>
+  <text xml:space="preserve"><note-content version="0.1">Linux Network Configuration
+
+ifconfig
+
+
+<bold>nm-tool</bold>
+display ethernet speed and DNS address
+plus some general network infomation
+
+</note-content></text>
+  <last-change-date>2014-07-10T22:59:50.7789090-07:00</last-change-date>
+  <last-metadata-change-date>2014-07-10T22:59:50.7811390-07:00</last-metadata-change-date>
+  <create-date>2014-07-10T22:56:45.9081500-07:00</create-date>
+  <cursor-position>125</cursor-position>
+  <selection-bound-position>125</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

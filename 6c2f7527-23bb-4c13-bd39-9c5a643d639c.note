@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Git Basic</title>
+  <text xml:space="preserve"><note-content version="0.1">Git Basic
+
+1, install git application
+<bold>sudo apt-get install git</bold>
+
+2, go to the project folder's parent folder, 
+for example Tomboy Notes default notes location is <bold><link:url>~/.local/share/tomboy</link:url></bold>
+<bold>cd <link:url>~/.local/share</link:url></bold>
+
+3, run
+<bold>git config --global user.name "guanyi"
+git config --global user.email "<link:url>guanyifang@hotmail.com"</link:url></bold>
+git will keep these user information in version control.
+
+4, run git command to initializa the repository
+git init &lt;projectName&gt;, which is the existing subfolder "tomboy".
+<bold>git init tomboy</bold>
+It will create a new folder named ".git" under the current <bold><link:url>~/.local/share/tomboy</link:url></bold> folder. All git backups and info are in this .git folder.
+
+5, run <bold>cd tomboy,</bold> it shows the folder is the branch master.
+
+6, run <bold>git status</bold> to see files which have not been tracked. The unstaged files are in red color.
+
+7, run <bold>git add .</bold> to add all possible unstaged files,
+or <bold>git add &lt;fileName&gt;</bold> to add a specific file by its name.
+or <bold>git add -u</bold> to track all exsiting staged files change, not new files which have not yet been add to the stage.
+or <bold>git add -A</bold> for doing both.
+
+8, run <bold>git status</bold> again, all staged files are in green color.
+
+9, run <bold>git commit -m "&lt;message&gt;"</bold> to commit all staged files to repository with a message to indicate the purpose of this commit. All commited files will be in white color.
+
+10, run <bold>git log</bold> to see the commit history with log that user entered.
+or run <bold>git log --oneline</bold> to get the short version.
+
+11, After editing something in the project files. run
+<bold>git diff</bold>
+It will show the difference between current file snap shot (red) and the newest change (green). If the change is very long, git will put it in a command version editor. To get out of the editor, use <bold>SHIFT+zz</bold>.
+
+Note:
+There are three stages in this whole process.
+<list><list-item dir="ltr">a, newest version (just modified the file)
+</list-item><list-item dir="ltr">b, added version (just run git add &lt;fileName&gt;, but not commit yet)
+</list-item><list-item dir="ltr">c, commited version (after run git commit -m)</list-item></list>
+
+<bold>git diff --cached</bold> is to compare "added version" and "commited version"
+<bold>git diff </bold>is to compare "newest version" and "added version"
+<bold>git diff HEAD</bold> is to compare "newest version" and "commited version"
+
+12 To add and commit in one step, run <bold>git commit -a -m "&lt;message&gt;"</bold>
+
+13
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2015-01-19T02:36:52.4606580-08:00</last-change-date>
+  <last-metadata-change-date>2015-01-19T02:36:52.4606580-08:00</last-metadata-change-date>
+  <create-date>2015-01-19T00:38:29.3475940-08:00</create-date>
+  <cursor-position>2162</cursor-position>
+  <selection-bound-position>2162</selection-bound-position>
+  <width>701</width>
+  <height>463</height>
+  <x>639</x>
+  <y>853</y>
+  <tags>
+    <tag>system:notebook:GitHub</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

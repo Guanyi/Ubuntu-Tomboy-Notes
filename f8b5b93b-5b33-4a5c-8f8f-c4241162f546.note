@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Account Management</title>
+  <text xml:space="preserve"><note-content version="0.1">Account Management
+
+<bold>Add a user:</bold>
+sudo adduser &lt;username&gt;
+
+<bold>Add an existing user into a group:</bold>
+sudo adduser &lt;username&gt; &lt;groupname&gt;
+
+<bold>Delete a user from a group:</bold>
+sudo deluser &lt;username&gt; &lt;groupname&gt;
+
+<bold>List all users:</bold>
+sudo cat <link:url>/etc/passwd</link:url>
+
+<bold>List all groups:</bold>
+sudo cat <link:url>/etc/group</link:url>
+
+<bold>Show  user's group membership:</bold>
+sudo groups &lt;username&gt;
+</note-content></text>
+  <last-change-date>2014-04-24T04:29:38.9508210-07:00</last-change-date>
+  <last-metadata-change-date>2014-04-24T04:29:38.9508210-07:00</last-metadata-change-date>
+  <create-date>2014-04-24T02:56:09.0708700-07:00</create-date>
+  <cursor-position>209</cursor-position>
+  <selection-bound-position>209</selection-bound-position>
+  <width>450</width>
+  <height>526</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

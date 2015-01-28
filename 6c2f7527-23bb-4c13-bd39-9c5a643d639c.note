@@ -2,6 +2,7 @@
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
   <title>Git Basic</title>
   <text xml:space="preserve"><note-content version="0.1">Git Basic
+location: <link:url>/home/guanyi/.local/share/tomboy/</link:url>
 
 <bold><size:large>Local Part:</size:large></bold>
 
@@ -73,15 +74,15 @@ Note: &lt;local folder name&gt; cannot omitted. If so, the local folder name wil
 7, 
 
 </note-content></text>
-  <last-change-date>2015-01-19T06:27:58.9912510-08:00</last-change-date>
-  <last-metadata-change-date>2015-01-19T06:27:58.9934210-08:00</last-metadata-change-date>
+  <last-change-date>2015-01-27T22:50:36.6491900-08:00</last-change-date>
+  <last-metadata-change-date>2015-01-27T22:50:36.6516080-08:00</last-metadata-change-date>
   <create-date>2015-01-19T00:38:29.3475940-08:00</create-date>
-  <cursor-position>2655</cursor-position>
-  <selection-bound-position>2655</selection-bound-position>
+  <cursor-position>2217</cursor-position>
+  <selection-bound-position>2217</selection-bound-position>
   <width>701</width>
   <height>463</height>
-  <x>0</x>
-  <y>0</y>
+  <x>59</x>
+  <y>30</y>
   <tags>
     <tag>system:notebook:GitHub</tag>
   </tags>

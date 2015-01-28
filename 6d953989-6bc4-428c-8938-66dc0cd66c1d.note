@@ -13,16 +13,27 @@ set number  "
 syntax on  "
 set tabstop=4  "
 set autoindent  "
-set smartindent  "</note-content></text>
-  <last-change-date>2014-07-12T04:08:54.3771740-07:00</last-change-date>
-  <last-metadata-change-date>2014-07-12T04:08:54.3792090-07:00</last-metadata-change-date>
+set smartindent  "
+set tabstop=4 "
+
+cheat sheet
+gg	mvoe to begging of file
+GG	move to the end of file
+0	move to the begging of line
+$	move to the end of line
+
+Delete:
+x X	delete a char under or before the cursor
+</note-content></text>
+  <last-change-date>2015-01-27T21:54:29.7389070-08:00</last-change-date>
+  <last-metadata-change-date>2015-01-27T21:54:29.7411990-08:00</last-metadata-change-date>
   <create-date>2014-07-12T04:01:18.0274920-07:00</create-date>
-  <cursor-position>146</cursor-position>
-  <selection-bound-position>146</selection-bound-position>
+  <cursor-position>84</cursor-position>
+  <selection-bound-position>84</selection-bound-position>
   <width>450</width>
   <height>360</height>
-  <x>0</x>
-  <y>0</y>
+  <x>4401</x>
+  <y>87</y>
   <tags>
     <tag>system:notebook:Linux</tag>
   </tags>

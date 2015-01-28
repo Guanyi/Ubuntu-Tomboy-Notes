@@ -35,7 +35,7 @@ or <bold>git add -A</bold> for doing both.
 8, Run <bold>git status</bold> again, all staged files are in green color.
 
 9, Run <bold>git commit -m "&lt;message&gt;"</bold> to commit all staged files to repository with a message to indicate the purpose of this commit. All commited files will be in white color.
-
+or <bold>git commit -a -m "message"</bold> will do add and commit in one line.
 10, Run <bold>git log</bold> to see the commit history with log that user entered.
 or run <bold>git log --oneline</bold> to get the short version.
 
@@ -74,15 +74,15 @@ Note: &lt;local folder name&gt; cannot omitted. If so, the local folder name wil
 7, 
 
 </note-content></text>
-  <last-change-date>2015-01-27T22:50:36.6491900-08:00</last-change-date>
-  <last-metadata-change-date>2015-01-27T22:50:36.6516080-08:00</last-metadata-change-date>
+  <last-change-date>2015-01-27T23:02:02.8652080-08:00</last-change-date>
+  <last-metadata-change-date>2015-01-27T23:02:02.8652080-08:00</last-metadata-change-date>
   <create-date>2015-01-19T00:38:29.3475940-08:00</create-date>
-  <cursor-position>2217</cursor-position>
-  <selection-bound-position>2217</selection-bound-position>
+  <cursor-position>1185</cursor-position>
+  <selection-bound-position>1185</selection-bound-position>
   <width>701</width>
   <height>463</height>
-  <x>59</x>
-  <y>30</y>
+  <x>0</x>
+  <y>0</y>
   <tags>
     <tag>system:notebook:GitHub</tag>
   </tags>

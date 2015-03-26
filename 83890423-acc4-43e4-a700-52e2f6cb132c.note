@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>C++ STL Notebook Template</title>
+  <text xml:space="preserve"><note-content version="0.1">C++ STL Notebook Template
+
+Describe your new note here.</note-content></text>
+  <last-change-date>2015-02-22T20:16:05.4231190-08:00</last-change-date>
+  <last-metadata-change-date>2015-02-22T20:16:05.4231190-08:00</last-metadata-change-date>
+  <create-date>2015-02-22T20:16:05.4039850-08:00</create-date>
+  <cursor-position>55</cursor-position>
+  <selection-bound-position>27</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:template</tag>
+    <tag>system:notebook:C++ STL</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

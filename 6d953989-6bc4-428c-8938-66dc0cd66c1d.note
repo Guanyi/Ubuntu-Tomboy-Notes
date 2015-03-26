@@ -28,12 +28,12 @@ x X	delete a char under or before the cursor
   <last-change-date>2015-01-27T21:54:29.7389070-08:00</last-change-date>
   <last-metadata-change-date>2015-01-27T21:54:29.7411990-08:00</last-metadata-change-date>
   <create-date>2014-07-12T04:01:18.0274920-07:00</create-date>
-  <cursor-position>84</cursor-position>
-  <selection-bound-position>84</selection-bound-position>
+  <cursor-position>111</cursor-position>
+  <selection-bound-position>111</selection-bound-position>
   <width>450</width>
   <height>360</height>
-  <x>4401</x>
-  <y>87</y>
+  <x>0</x>
+  <y>0</y>
   <tags>
     <tag>system:notebook:Linux</tag>
   </tags>

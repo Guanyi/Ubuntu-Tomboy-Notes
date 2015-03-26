@@ -61,6 +61,10 @@ There are three stages in this whole process.
 1, Create a repositoty in github.com
 
 2, On client computer, run <bold>git remote add origin &lt;remote repo url&gt;</bold>
+Note: for github.com, the correct url looks like the following:
+<link:url>https://github.com/Guanyi/cppAssignment2.git</link:url>
+
+The actual command is <bold>git remote add origin <link:url>https://github.com/Guanyi/cppAssignment2.git</link:url></bold>
 
 3, Run <bold>git remote -v</bold> to verify the remote url
 
@@ -71,20 +75,23 @@ Note: &lt;local folder name&gt; cannot omitted. If so, the local folder name wil
 
 6, From another computer, run <bold>git pull origin master</bold> to get update
 
-7, 
+Note: if set the wrong origin, run <bold>git remote show origin</bold> to see the actual origin. Actually we can name anywhere to be origin, for example a wrong url.
+
+To remove a wrong origin, run <bold>git remote rm origin</bold>, then run got remote add origin <link:url>https://github.com/Guanyi/cppAssignment2.git</link:url>
+
 
 </note-content></text>
-  <last-change-date>2015-01-27T23:02:02.8652080-08:00</last-change-date>
-  <last-metadata-change-date>2015-01-27T23:02:02.8652080-08:00</last-metadata-change-date>
+  <last-change-date>2015-03-25T23:29:49.8501550-07:00</last-change-date>
+  <last-metadata-change-date>2015-03-25T23:29:49.8527870-07:00</last-metadata-change-date>
   <create-date>2015-01-19T00:38:29.3475940-08:00</create-date>
-  <cursor-position>1185</cursor-position>
-  <selection-bound-position>1185</selection-bound-position>
+  <cursor-position>113</cursor-position>
+  <selection-bound-position>113</selection-bound-position>
   <width>701</width>
   <height>463</height>
-  <x>0</x>
-  <y>0</y>
+  <x>2708</x>
+  <y>448</y>
   <tags>
     <tag>system:notebook:GitHub</tag>
   </tags>
-  <open-on-startup>False</open-on-startup>
+  <open-on-startup>True</open-on-startup>
 </note>
